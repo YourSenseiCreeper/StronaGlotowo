@@ -82,4 +82,11 @@ tbody td .content {
     vertical-align: top;
 }
 
+td .header {
+    font-family: Verdana;
+    font-size: 10px;
+    background-color: #B0ACB0;
+    height: 20;
+    width: 100%;
+}
 
