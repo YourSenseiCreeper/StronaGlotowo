@@ -1,0 +1,10 @@
+function getCurrentDate() {
+    var data = new Date();
+    var dzien = data.getDate();
+    var miesiac = data.getMonth();
+    var rok = (data.getFullYear ? data.getFullYear() : data.getYear());
+    var miesiace = new Array("stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca", "lipca", "sierpnia", "wrze¶nia", "pa¼dziernika", "listopada", "grudnia");
+    let answer = dzien + "&nbsp;" + miesiace[miesiac] + "&nbsp;" + rok;
+    if (data != 0) return answer
+    else return "Data nieznana!";
+}
