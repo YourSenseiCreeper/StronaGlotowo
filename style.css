@@ -19,11 +19,6 @@ a:hover {
     color:#FFFFFF;
 }
 
-a:visited {
-    color:#514D51;
-    font-weight:bold;
-}
-
 .ace {
     background: url(grafa/input.jpg) repeat;
     background-color: #A8ACB0;
