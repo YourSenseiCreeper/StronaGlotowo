@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="style.css" type="text/css">
   <script src="./javascript/quotes.js"></script>
   <script src="./javascript/data.js"></script>
+  <script src="./ogloszenia.js"></script>
   <script src="./nawigacja.js"></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGFYHBWFHL"></script>
@@ -29,7 +30,8 @@
         <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#D0CCD0">
           <tr>
             <td class="today-is">
-              <b>Dzisiaj jest: </b><span id="today"></span>
+              <b>Dzisiaj jest: </b>
+              <script>document.write(getCurrentDate());</script>
             </td>
           </tr>
           <tr>
@@ -38,7 +40,9 @@
           <tr>
               <td colspan="2" class="quote">
                 <b>
-                  <marquee id="cytat"></marquee>
+                  <marquee>
+                    <script>document.write(getQuote()); </script>
+                  </marquee>
                 </b>
             </td>
           </tr>
@@ -57,7 +61,8 @@
                     <td class="header"><b>&nbsp;.:&nbsp;Menu</b></td>
                   </tr>
                   <tr>
-                    <td class="content" id="menu">
+                    <td class="content">
+                      <script>document.write(getMenu());</script>
                     </td>
                   </tr>
                   <tr>
@@ -72,7 +77,8 @@
                     <td class="header"><b>&nbsp;.:&nbsp;Linki</b></td>
                   </tr>
                   <tr>
-                    <td class="content" height="100" id="linki">
+                    <td class="content" height="100">
+                      <script>document.write(getLinki());</script>
                     </td>
                   </tr>
                   <tr>
@@ -88,25 +94,14 @@
                 <table class="frame" cellspacing=1 cellpadding=0 border=1>
                 <tbody>
                   <tr>
-                    <td class="header"><b>&nbsp;.:&nbsp;G³otowo</b></td>
+                    <td class="header"><b>&nbsp;.:&nbsp;Og³oszenia</b></td>
                   </tr>
                   <tr>
                     <td class="content" style="text-align: justify">
-                      <p>
-                        Oko³o czterech kilometrów na zachód od Dobrego Miasta, na Warmii w województwie
-                        warmiñsko-mazurskim,
-                        le¿y ma³a wie¶ G³otowo (spotyka siê te¿ nazwê Glotowo). Miejscowo¶æ ta wzmiankowana jest ju¿ w
-                        1290r.
-                        S³ynie ona z Sanktuarium Naj¶wiêtszego Sakramentu oraz Kalwarii Warmiñskiej.
-                      </p>
-                      <p>
-                        Od XIV w. przybywa³y tu rzesze pielgrzymów oddaj±cych cze¶æ Chrystusowi Eucharystycznemu.
-                        Bowiem ko¶ció³ zosta³ zbudowany na miejscu cudownego znalezienia Przenaj¶wiêtszej Hostii, któr±
-                        ukryto w ziemi przed najazdem pogañskich Litwinów i Prusów.
-                        Nasilaj±cy siê w ci±gu wieków ruch pielgrzymkowy spowodowa³, ¿e w 1726 r. wzniesiono wiêksz±,
-                        barokow± ¶wi±tyniê istniej±c± po dzieñ dzisiejszy. Ca³e jej bogate wnêtrze ukazuje teologiê
-                        Eucharystii.
-                      </p>
+                      <center><U><b><script>document.write(getOgloszeniaNaglowek());</script></B></U></CENTER><p>
+                        <ol class="ogloszenia">
+                          <script>document.write(getOgloszeniaContent());</script>
+                        </ol>
                     </td>
                   </tr>
                   <tr>
@@ -155,14 +150,6 @@
       </td>
     </tr>
   </table>
-
-  <!-- Loading common sections -->
-  <script>
-    document.getElementById('menu').innerHTML = getMenu();
-    document.getElementById('linki').innerHTML = getLinki();
-    document.getElementById('cytat').innerText = getQuote();
-    document.getElementById('today').innerText = getCurrentDate();
-  </script>
 </body>
 
 </html>
