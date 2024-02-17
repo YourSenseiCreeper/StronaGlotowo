@@ -113,6 +113,12 @@ table.frame {
     border-top: 1px solid #000000;
     text-align: center;
 }
+
+img.galery-icon {
+    border: 0px;
+    height: 15px;
+    content:url("brazki/b/p1.gif");
+}
 /* table.frame td {
     padding: 1px;
 } */
