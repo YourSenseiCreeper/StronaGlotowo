@@ -147,7 +147,7 @@
           <tr>
             <td class="copyright">
               <b>
-                &copy; Copyright by <a href="mailto:mproszek@op.pl"> Marek Proszek </A>2024
+                &copy; Copyright by <a href="mailto:mproszek@op.pl"> Marek Proszek </A><span id="year"></span>
               </b>
             </td>
           </tr>
@@ -162,6 +162,7 @@
     document.getElementById('linki').innerHTML = getLinki();
     document.getElementById('cytat').innerText = getQuote();
     document.getElementById('today').innerText = getCurrentDate();
+    document.getElementById('year').innerText = getCurrentYear();
   </script>
 </body>
 

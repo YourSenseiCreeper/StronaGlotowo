@@ -288,8 +288,6 @@ var elementy = new Array(
 );
 
 function getQuote() {
-    var liczba = 0;
-    do { liczba = Math.random(); } while (liczba >= 183);
-    liczba = Math.floor(liczba * elementy.length);
-    return elementy[liczba];
+    let randomIndex = Math.floor(Math.random() * elementy.length);
+    return elementy[randomIndex];
 }

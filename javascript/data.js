@@ -8,3 +8,7 @@ function getCurrentDate() {
     if (data != 0) return answer
     else return "Data nieznana!";
 }
+
+function getCurrentYear() {
+    return new Date().getFullYear();
+}
