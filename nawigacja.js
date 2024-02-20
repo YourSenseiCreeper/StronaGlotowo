@@ -17,7 +17,7 @@ var menu = [
     new MenuItem('Rekolekcje', 'rekolekcje.html'),
     new MenuItem('Dom Pielgrzyma', 'dom.html'),
     new MenuItem('GLOTOVIA', 'glotovia.html'),
-    new MenuItem('InFORMATOR', 'inf.html'),
+    // new MenuItem('InFORMATOR', 'inf.html'), //nie ma plików, które tam s± wylistowane, do usuniêcia
     new MenuItem('Rada Ruchów Katolickich', 'rrk.html'),
     new MenuItem('Regulamin cmentarza', 'regulamin_cmentarza.html'),
     new MenuItem('Regulamin placu zabaw', 'regulamin_placu_zabaw.html'),
