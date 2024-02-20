@@ -144,3 +144,20 @@ ol.ogloszenia li {
     margin-bottom: 1.5em;
 }
 
+.yt-video {
+    margin-bottom: 1.5em;
+}
+
+ul.dom-atrakcje {
+    padding-inline-start: 2em;
+}
+
+ul.dom-atrakcje li {
+    margin-bottom: .5em;
+}
+
+.pielgrzymi-info {
+    color: blue;
+    font-weight: 700;
+    text-align: center;
+}
