@@ -167,3 +167,21 @@ ul.dom-atrakcje li {
     margin-left: auto;
     margin-right: auto;
 }
+
+.rekolekcje-header {
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    font-size: 13px;
+}
+.rekolekcje-entry {
+    margin-block-end: .5em;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.rekolekcje-title {
+    color: red;
+    font-weight: 700;
+    font-size: 13px;
+}
