@@ -8,8 +8,10 @@
   <meta name="author" content="Marek Proszek" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script src="./javascript/quotes.js"></script>
   <script src="./javascript/data.js"></script>
+  <script src="./nawigacja.js"></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGFYHBWFHL"></script>
   <script>
@@ -28,19 +30,16 @@
         <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#D0CCD0">
           <tr>
             <td class="today-is">
-              <b>Dzisiaj jest: </b>
-              <script>document.write(getCurrentDate());</script>
+              <b>Dzisiaj jest: </b><span id="today"></span>
             </td>
           </tr>
           <tr>
-            <td background="brazki/winieta.jpg" colSpan=3 height=150></td>
+            <td background="obrazki/winieta.jpg" colSpan=3 height=150></td>
           </tr>
           <tr>
               <td colspan="2" class="quote">
                 <b>
-                  <marquee>
-                    <script>document.write(getQuote()); </script>
-                  </marquee>
+                  <marquee id="cytat"></marquee>
                 </b>
             </td>
           </tr>
@@ -59,23 +58,7 @@
                     <td class="header"><b>&nbsp;.:&nbsp;Menu</b></td>
                   </tr>
                   <tr>
-                    <td class="content">
-                      <A href="http://www.glotowo.pl">* Strona g³ówna</A><br>
-                      <a href="akt.html">* Aktualno¶ci</a><br>
-                      <a href="ogloszenia.html">* Og³oszenia </a><br>
-                      <a href="galeria.html">* Galeria </a><br>
-                      <a href="hist.html">* Historia</a><br>
-                      <a href="regulamin_cmentarza.html">* Regulamin cmentarza</a><br>
-                      <a href="kalwaria.html">* Kalwaria</a><br>
-                      <a href="kosciol.html">* Ko¶ció³</a><br>
-                      <a href="koscioltv.html">* Ko¶ció³ TV</a><br>
-                      <a href="msze.html">* Msze ¶wiête</a><br>
-                      <a href="rekolekcje.html">* Rekolekcje</a><br>
-                      <a href="dom.html">* Dom Pielgrzyma </a><br>
-                      <a href="glotovia.html">* GLOTOVIA</a><br>
-                      <a href="inf.html">* InFORMATOR</a><br>
-                      <a href="rrk.html">* Rada Ruchów Katolickich</a><br>
-                      <a href="kontakt.html">* Kontakt</a><br>
+                    <td class="content" id="menu">
                     </td>
                   </tr>
                   <tr>
@@ -90,14 +73,7 @@
                     <td class="header"><b>&nbsp;.:&nbsp;Linki</b></td>
                   </tr>
                   <tr>
-                    <td class="content" height="100">
-                      <a href="http://www.opoka.org.pl" target="_blank">* Opoka</a><br>
-                      <a href="http://www.adonai.pl" target="_blank">* Adonai</a><br>
-                      <a href="http://www.katolik.pl" target="_blank">* Katolik</a><br>
-                      <a href="http://www.bosko.pl" target="_blank">* Bosko</a><br>
-                      <a href="http://www.wiara.pl" target="_blank">* Wiara</a><br>
-                      <a href="http://www.spowiedz.pl" target="_blank">* Spowied¼</a><br>
-                      <a href="http://www.odnowa.org" target="_blank">* Odnowa w Polsce</a><br>
+                    <td class="content" height="100" id="linki">
                     </td>
                   </tr>
                   <tr>
@@ -178,7 +154,7 @@
                   </tr>
                   <tr>
                     <td class="content" style="text-align: center;">
-                      <img src="brazki/b/los.gif">
+                      <img src="obrazki/gify/los.gif">
                     </td>
                   </tr>
                   <tr>
@@ -197,7 +173,7 @@
           <tr>
             <td class="copyright">
               <b>
-                &copy; Copyright by <a href="mailto:mproszek@op.pl"> Marek Proszek </A>2024
+                &copy; Copyright by <a href="mailto:mproszek@op.pl"> Marek Proszek </A><span id="year"></span>
               </b>
             </td>
           </tr>
@@ -205,6 +181,14 @@
       </td>
     </tr>
   </table>
+  <!-- Loading common sections -->
+  <script>
+    document.getElementById('menu').innerHTML = getMenu();
+    document.getElementById('linki').innerHTML = getLinki();
+    document.getElementById('cytat').innerText = getQuote();
+    document.getElementById('today').innerText = getCurrentDate();
+    document.getElementById('year').innerText = getCurrentYear();
+  </script>
 </body>
 
 </html>
