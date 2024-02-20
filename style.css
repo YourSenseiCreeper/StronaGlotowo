@@ -117,7 +117,7 @@ table.frame {
 img.galery-icon {
     border: 0px;
     height: 15px;
-    content:url("brazki/b/p1.gif");
+    content:url("obrazki/gify/p1.gif");
 }
 
 ol.ogloszenia {
@@ -129,5 +129,18 @@ ol.ogloszenia {
 ol.ogloszenia li {
     margin-bottom: 10px;
     font-weight: 700;
+}
+
+.aktualnosci-header {
+    margin-block-end: .5em;
+}
+
+.aktualnosc-title {
+    color: red;
+}
+
+.aktualnosc-content {
+    margin-block-start: .5em;
+    margin-bottom: 1.5em;
 }
 
