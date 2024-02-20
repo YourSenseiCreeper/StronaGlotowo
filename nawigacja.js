@@ -15,9 +15,8 @@ var menu = [
     new MenuItem('Ko¶ció³', 'kosciol.html'),
     new MenuItem('Msze ¶wiête', 'msze.html'),
     new MenuItem('Rekolekcje', 'rekolekcje.html'),
-    new MenuItem('Dom Pielgrzyma', 'dom.html'),
+    new MenuItem('Dom Pielgrzyma', 'dom_pielgrzyma.html'),
     new MenuItem('GLOTOVIA', 'glotovia.html'),
-    // new MenuItem('InFORMATOR', 'inf.html'), //nie ma plików, które tam s± wylistowane, do usuniêcia
     new MenuItem('Rada Ruchów Katolickich', 'rrk.html'),
     new MenuItem('Regulamin cmentarza', 'regulamin_cmentarza.html'),
     new MenuItem('Regulamin placu zabaw', 'regulamin_placu_zabaw.html'),
@@ -34,12 +33,12 @@ var linki = [
     new MenuItem('Odnowa w Polsce', 'http://www.odnowa.org')
 ];
 
-function getMenu() {
-    return menu.map(v => `<a href="${v.link}">* ${v.nazwa}</a><br>`).reduce((sum, v) => sum += v);
+function getMenu(prefix = '') {
+    return menu.map(v => `<a href="${prefix}${v.link}">* ${v.nazwa}</a><br>`).reduce((sum, v) => sum += v);
 }
 
-function getLinki() {
-    return linki.map(v => `<a href="${v.link}" target="_blank">* ${v.nazwa}</a><br>`).reduce((sum, v) => sum += v);
+function getLinki(prefix = '') {
+    return linki.map(v => `<a href="${prefix}${v.link}" target="_blank">* ${v.nazwa}</a><br>`).reduce((sum, v) => sum += v);
 }
 
 function getCopyrightSection() {

@@ -1,0 +1,26 @@
+1. Jak dodać nowe ogłoszenia parafialne?
+
+a) Przejdź do pliku ogloszenia.js
+b) Zmodyfikuj nagłówek
+c) Zmodyfikuj ogloszenia
+
+
+2. Jak dodać nowy wpis w sekcji rekolekcje?
+
+a) Przejdź do pliku rekolekcje.js
+b) Zmodyfikuj nagłówek (jeżeli trzeba)
+c) Dodaj / usuń oraz zmodyfikuj zawartość wpisu rekolekcji
+
+
+3. Jak dodać nowy wpis w sekcji aktualności?
+
+a) Przejdź do pliku aktualnosci.js
+b) Zmodyfikuj nagłówek (jeżeli trzeba)
+c) Dodaj / usuń oraz zmodyfikuj zawartość wpisu aktualności
+
+
+4. Jak dodać nowy element w menu / linkach?
+
+a) Przejdź do pliku nawigacja.js
+b) Dodaj / usuń / zmodyfikuj element na liście menu
+c) Dodaj / usuń / zmodyfikuj element na liście linki 
