@@ -185,3 +185,15 @@ ul.dom-atrakcje li {
     font-weight: 700;
     font-size: 13px;
 }
+
+.rrk-naglowek, .rrk-wpis {
+    font-weight: 700;
+}
+
+.rrk-wpis {
+    margin-bottom: 2em;
+}
+
+.rrk-naglowek span {
+    color: red;
+}
