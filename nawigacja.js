@@ -17,10 +17,12 @@ var menu = [
     new MenuItem('Rekolekcje', 'rekolekcje.html'),
     new MenuItem('Dom Pielgrzyma', 'dom_pielgrzyma.html'),
     new MenuItem('GLOTOVIA', 'glotovia.html'),
-    new MenuItem('Rada Ruchów Katolickich', 'rrk.html'),
+    // new MenuItem('Rada Ruchów Katolickich', 'rrk.html'),
     new MenuItem('Regulamin cmentarza', 'regulamin_cmentarza.html'),
     new MenuItem('Regulamin placu zabaw', 'regulamin_placu_zabaw.html'),
-    new MenuItem('Kontakt', 'kontakt.html')
+    new MenuItem('Kontakt', 'kontakt.html'),
+    new MenuItem('Facebook', 'https://www.facebook.com/p/Parafia-Rzymskokatolicka-pw-Naj¶wiêtszego-Zbawiciela-w-G³otowie-100064331903793/'),
+    new MenuItem('Msze ¶wiête z G³otowa', 'https://www.facebook.com/mszeswietezglotowa/'), 
 ];
 
 var linki = [

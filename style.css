@@ -198,3 +198,13 @@ ul.dom-atrakcje li {
 .rrk-naglowek span {
     color: red;
 }
+
+.download-file {
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+
+.download-file:hover {
+    background-color: #B0ACB0;
+}
