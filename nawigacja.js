@@ -6,7 +6,7 @@ class MenuItem {
 }
 
 var menu = [
-    new MenuItem('Strona g³ówna', 'http://www.glotowo.pl'),
+    new MenuItem('Strona g³ówna', 'index.html'),
     new MenuItem('Aktualno¶ci', 'akt.html'),
     new MenuItem('Og³oszenia', 'ogloszenia.html'),
     new MenuItem('Galeria', 'galeria.html'),
@@ -26,6 +26,7 @@ var menu = [
 var linki = [
     new MenuItem('Opoka', 'http://www.opoka.org.pl'),
     new MenuItem('Adonai', 'http://www.adonai.pl'),
+    new MenuItem('Mateusz', 'https://mateusz.pl/'),
     new MenuItem('Katolik', 'http://www.katolik.pl'),
     new MenuItem('Bosko', 'http://www.bosko.pl'),
     new MenuItem('Wiara', 'http://www.wiara.pl'),

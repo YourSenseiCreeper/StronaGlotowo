@@ -12,6 +12,7 @@
   <script src="./javascript/quotes.js"></script>
   <script src="./javascript/data.js"></script>
   <script src="./nawigacja.js"></script>
+  <script src="./plakaty.js"></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGFYHBWFHL"></script>
   <script>
@@ -100,6 +101,8 @@
                         1290r.
                         S³ynie ona z Sanktuarium Naj¶wiêtszego Sakramentu oraz Kalwarii Warmiñskiej.
                       </p>
+                      <div class="plakaty" id="plakaty">
+                      </div>
                       <p>
                         Od XIV w. przybywa³y tu rzesze pielgrzymów oddaj±cych cze¶æ Chrystusowi Eucharystycznemu.
                         Bowiem ko¶ció³ zosta³ zbudowany na miejscu cudownego znalezienia Przenaj¶wiêtszej Hostii, któr±
@@ -164,6 +167,7 @@
     document.getElementById('cytat').innerText = getQuote();
     document.getElementById('today').innerText = getCurrentDate();
     document.getElementById('year').innerText = getCurrentYear();
+    document.getElementById('plakaty').innerHTML = getPlakatyContent();
   </script>
 </body>
 
