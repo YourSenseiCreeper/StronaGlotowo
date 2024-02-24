@@ -1,28 +1,29 @@
 class MenuItem {
-    constructor(nazwa, link) {
+    constructor(nazwa, link, dodatkoweTagi = '') {
         this.nazwa = nazwa;
         this.link = link;
+        this.dodatkoweTagi = dodatkoweTagi;
     }
 }
 
 var menu = [
-    new MenuItem('Strona g³ówna', 'index.html'),
-    new MenuItem('Aktualno¶ci', 'akt.html'),
-    new MenuItem('Og³oszenia', 'ogloszenia.html'),
+    new MenuItem('Strona gÅ‚Ã³wna', 'index.html'),
+    new MenuItem('AktualnoÅ›ci', 'akt.html'),
+    new MenuItem('OgÅ‚oszenia', 'ogloszenia.html'),
     new MenuItem('Galeria', 'galeria.html'),
     new MenuItem('Historia', 'hist.html'),
     new MenuItem('Kalwaria', 'kalwaria.html'),
-    new MenuItem('Ko¶ció³', 'kosciol.html'),
-    new MenuItem('Msze ¶wiête', 'msze.html'),
+    new MenuItem('KoÅ›ciÃ³Å‚', 'kosciol.html'),
+    new MenuItem('Msze Å›wiÄ™te', 'msze.html'),
     new MenuItem('Rekolekcje', 'rekolekcje.html'),
     new MenuItem('Dom Pielgrzyma', 'dom_pielgrzyma.html'),
     new MenuItem('GLOTOVIA', 'glotovia.html'),
-    // new MenuItem('Rada Ruchów Katolickich', 'rrk.html'),
+    // new MenuItem('Rada RuchÃ³w Katolickich', 'rrk.html'),
     new MenuItem('Regulamin cmentarza', 'regulamin_cmentarza.html'),
     new MenuItem('Regulamin placu zabaw', 'regulamin_placu_zabaw.html'),
     new MenuItem('Kontakt', 'kontakt.html'),
-    new MenuItem('Facebook', 'https://www.facebook.com/p/Parafia-Rzymskokatolicka-pw-Naj¶wiêtszego-Zbawiciela-w-G³otowie-100064331903793/'),
-    new MenuItem('Msze ¶wiête z G³otowa', 'https://www.facebook.com/mszeswietezglotowa/'), 
+    new MenuItem('Facebook', 'https://www.facebook.com/p/Parafia-Rzymskokatolicka-pw-NajÅ›wiÄ™tszego-Zbawiciela-w-GÅ‚otowie-100064331903793/', 'target="_blank"'),
+    new MenuItem('Msze Å›wiÄ™te z GÅ‚otowa', 'https://www.facebook.com/mszeswietezglotowa/', 'target="_blank"'), 
 ];
 
 var linki = [
@@ -32,12 +33,12 @@ var linki = [
     new MenuItem('Katolik', 'http://www.katolik.pl'),
     new MenuItem('Bosko', 'http://www.bosko.pl'),
     new MenuItem('Wiara', 'http://www.wiara.pl'),
-    new MenuItem('Spowied¼', 'http://www.spowiedz.pl'),
+    new MenuItem('SpowiedÅº', 'http://www.spowiedz.pl'),
     new MenuItem('Odnowa w Polsce', 'http://www.odnowa.org')
 ];
 
 function getMenu(prefix = '') {
-    return menu.map(v => `<a href="${prefix}${v.link}">* ${v.nazwa}</a><br>`).reduce((sum, v) => sum += v);
+    return menu.map(v => `<a href="${prefix}${v.link}" ${v.dodatkoweTagi}>* ${v.nazwa}</a><br>`).reduce((sum, v) => sum += v);
 }
 
 function getLinki(prefix = '') {

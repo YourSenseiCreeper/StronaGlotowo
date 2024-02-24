@@ -7,13 +7,13 @@ class Plakat {
 
 var szerokosc = "200px"; 
 var plakaty = [
-    new Plakat('G³otowo 2024', './obrazki/plakaty/Glotowo 2024.jpg'),
-    new Plakat('Wielki Post 2024 w G³otowie', './obrazki/plakaty/Wielki post 2024.jpg'),
+    new Plakat('GÅ‚otowo 2024', './obrazki/plakaty/Glotowo 2024.jpg'),
+    new Plakat('Wielki Post 2024 w GÅ‚otowie', './obrazki/plakaty/Wielki post 2024.jpg'),
 ];
 
 function getPlakatyContent() {
-    // <a href="./obrazki/plakaty/Glotowo 2024.jpg" target="_blank"><img src="./obrazki/plakaty/Glotowo 2024.jpg" alt="G³otowo 2024"></a>
-    // <a href="./obrazki/plakaty/Wielki post 2024.jpg" target="_blank"><img src="./obrazki/plakaty/Wielki post 2024.jpg" alt="Wielki Post 2024 w G³otowie"></a>
+    // <a href="./obrazki/plakaty/Glotowo 2024.jpg" target="_blank"><img src="./obrazki/plakaty/Glotowo 2024.jpg" alt="GÅ‚otowo 2024"></a>
+    // <a href="./obrazki/plakaty/Wielki post 2024.jpg" target="_blank"><img src="./obrazki/plakaty/Wielki post 2024.jpg" alt="Wielki Post 2024 w GÅ‚otowie"></a>
     let szerokoscTag = szerokosc != null ? `style="width: ${szerokosc}"` : '';
     let content = plakaty.map(v => `<a href="${v.sciezkaDoPliku}" target="_blank"><img src="${v.sciezkaDoPliku}" alt="${v.tytul}" ${szerokoscTag}></a>`).join('');
     return content;

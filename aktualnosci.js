@@ -6,48 +6,49 @@ class Aktualnosc {
     }
 }
 
-var naglowek = 'AKTUALNO¶CI 2024 R.';
+var naglowek = 'AKTUALNO≈öCI 2024 R.';
 var aktualnosci = [
-    new Aktualnosc('PI°TKI WIELKIEGO POSTU 2024', 'GODZINY MI£OSIERDZIA BOØEGO',
+    new Aktualnosc('PIƒÑTKI WIELKIEGO POSTU 2024', 'GODZINY MI≈ÅOSIERDZIA BO≈ªEGO',
     [
-        '17.00 - DROGA KRZYØOWA NA KALWARII WARMI—SKIEJ,',
-        '18.00 - MSZA ¶W Z MODLITW° O UZDROWIENIE DUSZY I CIA£A.'
+        '17.00 - DROGA KRZY≈ªOWA NA KALWARII WARMI≈ÉSKIEJ,',
+        '18.00 - MSZA ≈öW Z MODLITWƒÑ O UZDROWIENIE DUSZY I CIA≈ÅA.'
     ]),
     new Aktualnosc('21-23.03.2024', 'REKOLEKCJE WIELKOPOSTNE',
     [
-        '- 11.00 - Msza ¶w. z nauk± rekolekcyjn±.',
-        '- 18.00 - Msza ¶w. z nauk± rekolekcyjn±.'
+        '- 11.00 - Msza ≈öw. z naukƒÖ rekolekcyjnƒÖ.',
+        '- 18.00 - Msza ≈öw. z naukƒÖ rekolekcyjnƒÖ.'
     ]),
-    new Aktualnosc('28-31.03.2024', 'Triduum Paschalne w G≥otowie',
+    new Aktualnosc('28-31.03.2024', 'Triduum Paschalne w G≈Çotowie',
     [
-        'To rekolekcje dla doros≥ych pog≥Íbiaj±ce przeøycie ¶wiÍtych Dni przez dodatkowe katechezy, spotkania w grupach, naboøeÒstwa i modlitwy.',
-        'Pocz±tek w Wielki Czwartek o godz. 16.00.',
-        'ZakoÒczenie w NiedzielÍ Wielkanocn± po Rezurekcjach.'
+        'To rekolekcje dla doros≈Çych pog≈ÇƒôbiajƒÖce prze≈ºycie ≈öwiƒôtych Dni przez dodatkowe katechezy, spotkania w grupach, nabo≈ºe≈Ñstwa i modlitwy.',
+        'PoczƒÖtek w Wielki Czwartek o godz. 16.00.',
+        'Zako≈Ñczenie w Niedzielƒô WielkanocnƒÖ po Rezurekcjach.'
     ]),
-    new Aktualnosc('18.05.2024', '130 ROCZNICA PO¶WI CENIA KALWARII WARMI—SKIEJ I PIELGRZYMKA SOLIDARNO¶CI W HO£DZIE ∂W. JANOWI PAW£OWI II.',
+    new Aktualnosc('18.05.2024', '130 ROCZNICA PO≈öWIƒòCENIA KALWARII WARMI≈ÉSKIEJ I PIELGRZYMKA SOLIDARNO≈öCI W HO≈ÅDZIE ≈õW. JANOWI PAW≈ÅOWI II.',
     [
-        '- 11.00 - Uroczysta Msza ¶wiÍta',
-        '- 12.00 - Droga Krzyøowa'
+        '- 11.00 - Uroczysta Msza ≈öwiƒôta',
+        '- 12.00 - Droga Krzy≈ºowa'
     ]),
-    new Aktualnosc('2.06.2024', 'Odpust diecezjalny w G≥otowie.',
+    new Aktualnosc('2.06.2024', 'Odpust diecezjalny w G≈Çotowie.',
     [
-        '- 10.00 - Droga Krzyøowa',
-        '- 11.00 - Adoracja Naj∂wiÍtszego Sakramentu',
+		'- 8.30 - Msza ≈öw. z kazaniem',
+        '- 10.00 - Droga Krzy≈ºowa',
+        '- 11.00 - Adoracja Naj≈õwiƒôtszego Sakramentu',
         '- 12.00 - Suma odpustowa'
     ]),
-    new Aktualnosc('15.09.2024', 'Odpust diecezjalny w G≥otowie',
+    new Aktualnosc('15.09.2024', 'Odpust diecezjalny w G≈Çotowie',
     [
-        '- 8.30 - Msza ¶w. z kazaniem',
-        '- 10.00 - Droga Krzyøowa',
-        '- 11.00 - Adoracja Naj∂wiÍtszego Sakramentu',
+        '- 8.30 - Msza ≈öw. z kazaniem',
+        '- 10.00 - Droga Krzy≈ºowa',
+        '- 11.00 - Adoracja Naj≈õwiƒôtszego Sakramentu',
         '- 12.00 - Suma odpustowa'
     ]),
-    new Aktualnosc('22.09.2024', 'Doøynki parafialne - Msza ¶w. o 11.00.', []),
-    new Aktualnosc('21.12.2024', 'ADWENTOWY DZIE— REKOLEKCYJNY.',
+    new Aktualnosc('22.09.2024', 'Do≈ºynki parafialne - Msza ≈öw. o 11.00.', []),
+    new Aktualnosc('21.12.2024', 'ADWENTOWY DZIE≈É REKOLEKCYJNY.',
     [
-        '- Okazja do spowiedzi w czasie Mszy ¶wiÍtych.',
-        '- 11.00 - Msza ¶w. i nauka rekolekcyjna.',
-        '- 18.00 - Msza ¶w. i nauka rekolekcyjna.'
+        '- Okazja do spowiedzi w czasie Mszy ≈öwiƒôtych.',
+        '- 11.00 - Msza ≈öw. i nauka rekolekcyjna.',
+        '- 18.00 - Msza ≈öw. i nauka rekolekcyjna.'
     ]),
 ];
 
@@ -60,11 +61,11 @@ function getAktualnosciContent() {
     //     <B><span id="aktualnosci-header"></span></b>
     // </p>
     // <p class="aktualnosci-header">
-    //     <b>PI°TKI WIELKIEGO POSTU 2024 - <span class="aktualnosc-title">GODZINY MI£OSIERDZIA BOØEGO</span></b>
+    //     <b>PIƒÑTKI WIELKIEGO POSTU 2024 - <span class="aktualnosc-title">GODZINY MI≈ÅOSIERDZIA BO≈ªEGO</span></b>
     // </p>
     // <p class="aktualnosc-content">
-    //     17.00 - DROGA KRZYØOWA NA KALWARII WARMI—SKIEJ, <br>
-    //     18.00 - MSZA ¶W Z MODLITW° O UZDROWIENIE DUSZY I CIA£A.
+    //     17.00 - DROGA KRZY≈ªOWA NA KALWARII WARMI≈ÉSKIEJ, <br>
+    //     18.00 - MSZA ≈öW Z MODLITWƒÑ O UZDROWIENIE DUSZY I CIA≈ÅA.
     // </p>
     let content = aktualnosci.map(v => {
         let aktualnoscHeader = `<p class="aktualnosci-header"><b>${v.data} - <span class="aktualnosc-title">${v.tytul}</span></b></p>`;

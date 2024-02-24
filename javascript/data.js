@@ -3,7 +3,7 @@ function getCurrentDate() {
     var dzien = data.getDate();
     var miesiac = data.getMonth();
     var rok = (data.getFullYear ? data.getFullYear() : data.getYear());
-    var miesiace = new Array("stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca", "lipca", "sierpnia", "wrze∂nia", "paºdziernika", "listopada", "grudnia");
+    var miesiace = new Array("stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca", "lipca", "sierpnia", "wrze≈õnia", "pa≈∫dziernika", "listopada", "grudnia");
     let answer = `${dzien} ${miesiace[miesiac]} ${rok}`;
     if (data != 0) return answer
     else return "Data nieznana!";

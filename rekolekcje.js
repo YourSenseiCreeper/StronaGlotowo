@@ -7,12 +7,12 @@ class Rekolekcje {
 
 var naglowek = 'REKOLEKCJE 2024';
 var rekolekcje = [
-    new Rekolekcje('21-23.03.2024 r.', 'REKOLEKCJE WIELKOPOSTNE W G£OTOWIE. MSZE Z NAUKAMI O 11.00 I 18.00.'),
+    new Rekolekcje('21-23.03.2024 r.', 'REKOLEKCJE WIELKOPOSTNE W G≈ÅOTOWIE. MSZE Z NAUKAMI O 11.00 I 18.00.'),
     new Rekolekcje('22-23.03.2024 r.', 'REKOLEKCJE STOWARZYSZENIA CIVITAS CHRISTIANA.'),
-    new Rekolekcje('28-31.03.2024 r.', 'REKOLEKCJE TRIDUUM PASCHALNE DLA OS”B DOROS£YCH. W CZASIE REKOLEKCJI POG£ BIENIE PRZEØYWANIA ¶WI TEGO TRIDUUM PASCHALNEGO. POCZ°TEK O 17.00 W WIELKI CZWARTEK, ZAKO—CZENIE W NIEDZIEL  OK.8.00.'),
-    new Rekolekcje('23-26.05.2024 r.', 'DNI TRZE¨WO¶CI I RADO¶CI DLA OS”B TRZE¨WIEJ°CYCH I WSP”£UZALEØNIONYCH.'),
+    new Rekolekcje('28-31.03.2024 r.', 'REKOLEKCJE TRIDUUM PASCHALNE DLA OS√ìB DOROS≈ÅYCH. W CZASIE REKOLEKCJI POG≈ÅƒòBIENIE PRZE≈ªYWANIA ≈öWIƒòTEGO TRIDUUM PASCHALNEGO. POCZƒÑTEK O 17.00 W WIELKI CZWARTEK, ZAKO≈ÉCZENIE W NIEDZIELƒò OK.8.00.'),
+    new Rekolekcje('23-26.05.2024 r.', 'DNI TRZE≈πWO≈öCI I RADO≈öCI DLA OS√ìB TRZE≈πWIEJƒÑCYCH I WSP√ì≈ÅUZALE≈ªNIONYCH.'),
 ];
-var zgloszenia = 'ZG£OSZENIA NA WSZYSTKIE REKOLEKCJE: Ks. Marek Proszek, tel.606140178, e-mail mproszek@op.pl.';
+var zgloszenia = 'ZG≈ÅOSZENIA NA WSZYSTKIE REKOLEKCJE: Ks. Marek Proszek, tel.606140178, e-mail mproszek@op.pl.';
 
 function getRekolekcjeNaglowek() {
     return naglowek;
@@ -23,7 +23,7 @@ function getRekolekcjeContent() {
     //     <B><span id="aktualnosci-header"></span></b>
     // </p>
     // <p class="aktualnosci-header">
-    //     <b>21-23.03.2024 r. - <span class="aktualnosc-title">REKOLEKCJE WIELKOPOSTNE W G£OTOWIE. MSZE Z NAUKAMI O 11.00 I 18.00.</span></b>
+    //     <b>21-23.03.2024 r. - <span class="aktualnosc-title">REKOLEKCJE WIELKOPOSTNE W G≈ÅOTOWIE. MSZE Z NAUKAMI O 11.00 I 18.00.</span></b>
     // </p>
     let zgloszeniaHtml = `<p class="rekolekcje-entry">${zgloszenia}</p>`;
     let content = rekolekcje.map(v => `<p class="rekolekcje-entry">${v.data} - <span class="rekolekcje-title">${v.tytul}</span></p>`).join('');
