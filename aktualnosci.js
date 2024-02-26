@@ -1,12 +1,4 @@
-class Aktualnosc {
-    constructor(data, tytul, wiersze) {
-        this.data = data;
-        this.tytul = tytul;
-        this.wiersze = wiersze;
-    }
-}
-
-var naglowek = 'AKTUALNOŚCI 2024 R.';
+var aktualnosciNaglowek = 'AKTUALNOŚCI 2024 R.';
 var aktualnosci = [
     new Aktualnosc('PIĄTKI WIELKIEGO POSTU 2024', 'GODZINY MIŁOSIERDZIA BOŻEGO',
     [
@@ -51,27 +43,3 @@ var aktualnosci = [
         '- 18.00 - Msza Św. i nauka rekolekcyjna.'
     ]),
 ];
-
-function getAktualnosciNaglowek() {
-    return naglowek;
-}
-
-function getAktualnosciContent() {
-    // <p>
-    //     <B><span id="aktualnosci-header"></span></b>
-    // </p>
-    // <p class="aktualnosci-header">
-    //     <b>PIĄTKI WIELKIEGO POSTU 2024 - <span class="aktualnosc-title">GODZINY MIŁOSIERDZIA BOŻEGO</span></b>
-    // </p>
-    // <p class="aktualnosc-content">
-    //     17.00 - DROGA KRZYŻOWA NA KALWARII WARMIŃSKIEJ, <br>
-    //     18.00 - MSZA ŚW Z MODLITWĄ O UZDROWIENIE DUSZY I CIAŁA.
-    // </p>
-    let content = aktualnosci.map(v => {
-        let aktualnoscHeader = `<p class="aktualnosci-header"><b>${v.data} - <span class="aktualnosc-title">${v.tytul}</span></b></p>`;
-        let aktualnoscContent = `<p class="aktualnosc-content">${v.wiersze.join('<br>')}</p>`;
-        return aktualnoscHeader + aktualnoscContent;
-    }).join('');
-    let header = `<p style="text-align: center"><B>${naglowek}</b></p>`
-    return header + content;
-}
