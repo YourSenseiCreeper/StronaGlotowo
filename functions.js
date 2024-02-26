@@ -41,7 +41,7 @@ function getAktualnosciContent() {
         let aktualnoscContent = `<p class="aktualnosc-content">${v.wiersze.join('<br>')}</p>`;
         return aktualnoscHeader + aktualnoscContent;
     }).join('');
-    let header = `<p style="text-align: center"><B>${naglowek}</b></p>`
+    let header = `<p style="text-align: center"><B>${aktualnosciNaglowek}</b></p>`
     return header + content;
 }
 
@@ -54,7 +54,7 @@ function getOgloszeniaContent() {
 }
 
 function copyOgloszenia() {
-    let content = `${naglowek}\n\n${ogloszenia.map((v, i) => `${i+1}. ${v}`).join('\n')}`;
+    let content = `${ogloszeniaNaglowek}\n\n${ogloszenia.map((v, i) => `${i+1}. ${v}`).join('\n')}`;
     unsecuredCopyToClipboard(content);
 }
 
@@ -67,6 +67,7 @@ function unsecuredCopyToClipboard(text) {
     textArea.select();
     try {
       document.execCommand('copy');
+      alert('Ogłoszenia skopiowane do schowka');
     } catch (err) {
       console.error('Unable to copy to clipboard', err);
     }
@@ -93,6 +94,6 @@ function getRekolekcjeContent() {
     // </p>
     let zgloszeniaHtml = `<p class="rekolekcje-entry">${zgloszenia}</p>`;
     let content = rekolekcje.map(v => `<p class="rekolekcje-entry">${v.data} - <span class="rekolekcje-title">${v.tytul}</span></p>`).join('');
-    let header = `<p class="rekolekcje-header"><b>${naglowek}</b></p>`
+    let header = `<p class="rekolekcje-header"><b>${rekolekcjeNaglowek}</b></p>`
     return header + content + zgloszeniaHtml;
 }
