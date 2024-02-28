@@ -208,3 +208,15 @@ ul.dom-atrakcje li {
 .download-file:hover {
     background-color: #B0ACB0;
 }
+
+.reg-lista {
+    padding-inline-start: 2em;
+}
+
+.reg-lista li {
+    margin-bottom: 0.5em;
+}
+
+.rozdzial {
+    font-weight: 700;
+}
