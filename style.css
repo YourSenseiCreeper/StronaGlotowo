@@ -120,13 +120,13 @@ img.galery-icon {
     content:url("obrazki/gify/p1.gif");
 }
 
-ol.ogloszenia {
-    padding-inline-start: 20px;
+.ogloszenia {
+    padding-inline-start: 10px;
     padding-right: 10px;
     font-weight: 700;
 }
 
-ol.ogloszenia li {
+.ogloszenia li, .ogloszenia p {
     margin-bottom: 10px;
     font-weight: 700;
 }

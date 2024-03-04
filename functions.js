@@ -50,11 +50,12 @@ function getOgloszeniaNaglowek() {
 }
 
 function getOgloszeniaContent() {
-    return ogloszenia.map(v => `<li>${v}</li>`).reduce((sum, v) => sum += v);
+    return ogloszenia.map(v => `<p>${v}</p>`).reduce((sum, v) => sum += v);
 }
 
 function copyOgloszenia() {
-    let content = `${ogloszeniaNaglowek}\n\n${ogloszenia.map((v, i) => `${i+1}. ${v}`).join('\n')}`;
+    // let content = `${ogloszeniaNaglowek}\n\n${ogloszenia.map((v, i) => `${i+1}. ${v}`).join('\n')}`;
+    let content = `${ogloszeniaNaglowek}\n\n${ogloszenia.join('\n')}`;
     unsecuredCopyToClipboard(content);
 }
 
