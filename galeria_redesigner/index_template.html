@@ -1,0 +1,24 @@
+<html lang="pl">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{title}</title>
+	<link href="./style.css" rel=stylesheet>
+	<script src="./script.js"></script>
+</head>
+<body>
+	<div class="header">
+		<h1>{title}</h1>
+	</div>
+	<div class="gallery">
+		{content}
+	</div>
+	<div class="fullscreen-image-wrapper wrapper-hidden" id="fullscreen-image-wrapper" onclick="closeWrapper()">
+		<div class="inside-wrapper">
+			<img id="fullscreen-image">
+			<p onclick="closeWrapper()">Zamknij</p>
+			<!-- Controls -->
+		</div>
+	</div>
+</body>
+</html>
