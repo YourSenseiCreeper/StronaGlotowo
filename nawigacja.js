@@ -22,6 +22,7 @@ var menu = [
     new MenuItem('Regulamin cmentarza', 'regulamin_cmentarza.html'),
     new MenuItem('Regulamin placu zabaw', 'regulamin_placu_zabaw.html'),
     new MenuItem('Kontakt', 'kontakt.html'),
+    new MenuItem('Sanktuaria Warmii i Mazur', 'http://sanktuariawarmiiimazur.pl/glotowo/', 'target="_blank"'),
     new MenuItem('Facebook', 'https://www.facebook.com/p/Parafia-Rzymskokatolicka-pw-Najświętszego-Zbawiciela-w-Głotowie-100064331903793/', 'target="_blank"'),
     new MenuItem('Msze święte z Głotowa', 'https://www.facebook.com/mszeswietezglotowa/', 'target="_blank"'), 
 ];
