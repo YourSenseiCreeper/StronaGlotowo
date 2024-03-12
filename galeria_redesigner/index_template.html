@@ -5,6 +5,9 @@
 	<title>{title}</title>
 	<link href="./style.css" rel=stylesheet>
 	<script src="./script.js"></script>
+	<script>
+		{initImageGallery}
+	</script>
 </head>
 <body>
 	<div class="header">
@@ -13,11 +16,14 @@
 	<div class="gallery">
 		{content}
 	</div>
-	<div class="fullscreen-image-wrapper wrapper-hidden" id="fullscreen-image-wrapper" onclick="closeWrapper()">
+	<div class="fullscreen-image-wrapper wrapper-hidden" id="fullscreen-image-wrapper">
 		<div class="inside-wrapper">
 			<img id="fullscreen-image">
-			<p onclick="closeWrapper()">Zamknij</p>
-			<!-- Controls -->
+			<div class="controls">
+				<span class="arrow" onclick="previousImage()">⬅</span>
+				<span class="close" onclick="closeWrapper()">Zamknij</span>
+				<span class="arrow" onclick="nextImage()">➡</span>
+			</div>
 		</div>
 	</div>
 </body>
