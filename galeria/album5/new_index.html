@@ -1,0 +1,45 @@
+<html lang="pl">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Przedwojenne widokówki z Głotowa</title>
+	<link href="./style.css" rel=stylesheet>
+	<script src="./script.js"></script>
+	<script>
+		images = ['Glotowo 01.jpg','Glotowo 02.jpg','Glotowo 03.jpg','Glotowo 04.jpg','Glotowo 05.jpg','Glotowo 06.jpg','Glotowo 07.jpg','Glotowo 08.jpg','Glotowo 09.jpg','Glotowo 10.jpg','Glotowo 11.jpg','Glotowo 12.jpg','Glotowo 13.jpg','Glotowo 14.jpg','Glotowo 15.jpg','Glotowo 16.jpg'];
+	</script>
+</head>
+<body>
+	<div class="header">
+		<h1>Przedwojenne widokówki z Głotowa</h1>
+	</div>
+	<div class="gallery">
+		<img src="./slides/Glotowo 01.jpg" alt="Glotowo 01.jpg" onclick="openImage('Glotowo 01.jpg')">
+<img src="./slides/Glotowo 02.jpg" alt="Glotowo 02.jpg" onclick="openImage('Glotowo 02.jpg')">
+<img src="./slides/Glotowo 03.jpg" alt="Glotowo 03.jpg" onclick="openImage('Glotowo 03.jpg')">
+<img src="./slides/Glotowo 04.jpg" alt="Glotowo 04.jpg" onclick="openImage('Glotowo 04.jpg')">
+<img src="./slides/Glotowo 05.jpg" alt="Glotowo 05.jpg" onclick="openImage('Glotowo 05.jpg')">
+<img src="./slides/Glotowo 06.jpg" alt="Glotowo 06.jpg" onclick="openImage('Glotowo 06.jpg')">
+<img src="./slides/Glotowo 07.jpg" alt="Glotowo 07.jpg" onclick="openImage('Glotowo 07.jpg')">
+<img src="./slides/Glotowo 08.jpg" alt="Glotowo 08.jpg" onclick="openImage('Glotowo 08.jpg')">
+<img src="./slides/Glotowo 09.jpg" alt="Glotowo 09.jpg" onclick="openImage('Glotowo 09.jpg')">
+<img src="./slides/Glotowo 10.jpg" alt="Glotowo 10.jpg" onclick="openImage('Glotowo 10.jpg')">
+<img src="./slides/Glotowo 11.jpg" alt="Glotowo 11.jpg" onclick="openImage('Glotowo 11.jpg')">
+<img src="./slides/Glotowo 12.jpg" alt="Glotowo 12.jpg" onclick="openImage('Glotowo 12.jpg')">
+<img src="./slides/Glotowo 13.jpg" alt="Glotowo 13.jpg" onclick="openImage('Glotowo 13.jpg')">
+<img src="./slides/Glotowo 14.jpg" alt="Glotowo 14.jpg" onclick="openImage('Glotowo 14.jpg')">
+<img src="./slides/Glotowo 15.jpg" alt="Glotowo 15.jpg" onclick="openImage('Glotowo 15.jpg')">
+<img src="./slides/Glotowo 16.jpg" alt="Glotowo 16.jpg" onclick="openImage('Glotowo 16.jpg')">
+	</div>
+	<div class="fullscreen-image-wrapper wrapper-hidden" id="fullscreen-image-wrapper">
+		<div class="inside-wrapper">
+			<img id="fullscreen-image">
+			<div class="controls">
+				<span class="arrow" onclick="previousImage()">⬅</span>
+				<span class="close" onclick="closeWrapper()">Zamknij</span>
+				<span class="arrow" onclick="nextImage()">➡</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<html lang="pl">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zdjęcia Dom Pielgrzyma</title>
+	<link href="./style.css" rel=stylesheet>
+	<script src="./script.js"></script>
+	<script>
+		images = ['28042008062.jpg','28042008063.jpg','28042008064.jpg','28042008065.jpg','28042008066.jpg','28042008067.jpg','28042008068.jpg','28042008069.jpg','28042008070.jpg','Tablica informacyjna.JPG'];
+	</script>
+</head>
+<body>
+	<div class="header">
+		<h1>Zdjęcia Dom Pielgrzyma</h1>
+	</div>
+	<div class="gallery">
+		<img src="./slides/28042008062.jpg" alt="28042008062.jpg" onclick="openImage('28042008062.jpg')">
+<img src="./slides/28042008063.jpg" alt="28042008063.jpg" onclick="openImage('28042008063.jpg')">
+<img src="./slides/28042008064.jpg" alt="28042008064.jpg" onclick="openImage('28042008064.jpg')">
+<img src="./slides/28042008065.jpg" alt="28042008065.jpg" onclick="openImage('28042008065.jpg')">
+<img src="./slides/28042008066.jpg" alt="28042008066.jpg" onclick="openImage('28042008066.jpg')">
+<img src="./slides/28042008067.jpg" alt="28042008067.jpg" onclick="openImage('28042008067.jpg')">
+<img src="./slides/28042008068.jpg" alt="28042008068.jpg" onclick="openImage('28042008068.jpg')">
+<img src="./slides/28042008069.jpg" alt="28042008069.jpg" onclick="openImage('28042008069.jpg')">
+<img src="./slides/28042008070.jpg" alt="28042008070.jpg" onclick="openImage('28042008070.jpg')">
+<img src="./slides/Tablica informacyjna.JPG" alt="Tablica informacyjna.JPG" onclick="openImage('Tablica informacyjna.JPG')">
+	</div>
+	<div class="fullscreen-image-wrapper wrapper-hidden" id="fullscreen-image-wrapper">
+		<div class="inside-wrapper">
+			<img id="fullscreen-image">
+			<div class="controls">
+				<span class="arrow" onclick="previousImage()">⬅</span>
+				<span class="close" onclick="closeWrapper()">Zamknij</span>
+				<span class="arrow" onclick="nextImage()">➡</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

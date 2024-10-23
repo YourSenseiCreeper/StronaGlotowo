@@ -1,0 +1,135 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-color: #404048;
+    position: relative;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+}
+
+.header h1 {
+    text-align: center;
+    margin-top: 0.5em;
+    color: white;
+}
+
+.gallery {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    max-width: fit-content;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    max-width: 250px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    transition: .2s;
+    cursor: pointer;
+    display: block;
+}
+
+
+.gallery img:hover {
+    transition: .2s;
+    filter: brightness(0.5);
+}
+
+.fullscreen-image-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: 2;
+}
+
+.inside-wrapper {
+    position: fixed;
+    text-align: center;
+    top: 15vh; 
+    left: 33vw;
+    z-index: 11;
+}
+
+#fullscreen-image {
+    /* width: calc(100vw * 0.9); */
+    max-width: calc(100vw * 0.75);
+    max-height: calc(100vh * 0.75);
+}
+
+.inside-wrapper p {
+    justify-content: center;
+    background-color: rgba(211, 211, 211, 0.425);
+}
+
+.inside-wrapper p:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.wrapper-hidden {
+    overflow: hidden !important;
+    display: none !important;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    font-size: 14pt;
+    background-color: #d3d3d37a;
+}
+
+.arrow {
+    font-weight: 700;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.arrow:hover, .close:hover {
+    background-color: #d3d3d3;
+    transition: .3s;
+}
+
+.arrow-hidden {
+    display: none !important;
+}
+
+.close {
+    padding: 0.5em 1em;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: .3s;
+}
+
+@media only screen and (max-width: 700px) {
+    .gallery {
+        width: 100%;
+    }
+
+    .gallery img {
+        max-width: 150px;
+        max-height: 100px;
+    }
+
+    .inside-wrapper {
+        top: 15vh; 
+        left: 15vw;
+    }
+}

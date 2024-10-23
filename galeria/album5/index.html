@@ -1,0 +1,644 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<!-- saved from url=(0014)about:internet -->
+<HEAD>
+<TITLE>My Jalbum</TITLE>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<META NAME="generator" CONTENT="Jalbum 8.1 with the Boxer skin">
+<META NAME="description" CONTENT="">
+<META NAME="keywords"    CONTENT="">
+<META NAME="copyright"   CONTENT="">
+<!-- <LINK HREF="styles/default.css" rel=stylesheet> -->
+<LINK HREF="res/styles.css" rel=stylesheet>
+
+<script language="javascript" type="text/javascript" src="res/highslide.js"></script>
+<script type="text/javascript" src="res/easing_equations.js"></script>
+<script type="text/javascript">
+
+	// remove the registerOverlay call to disable the controlbar
+	hs.registerOverlay(
+    	{
+    		thumbnailId: null,
+    		overlayId: 'controlbar',
+    		position: 'top right',
+    		hideOnMouseOut: true,
+        useOnHtml: true
+		}
+	);
+	
+    // set options selected in the Boxer Highslide JS tab	
+    hs.graphicsDir = 'res/graphics/';
+    hs.outlineType = 'rounded-white';
+    hs.showCredits = true;
+    hs.dimmingDuration = 200;
+    hs.fadeInOut = false;
+    hs.fullExpandPosition = 'bottom right';
+    
+    
+    hs.numberOfImagesToPreload = "5";
+    
+    
+    
+        
+            hs.easing = "easeOutBack";
+            hs.easingClose = "easeInBack";
+            
+            hs.expandDuration = 250;
+            hs.restoreDuration = 250;
+            
+        
+    
+
+
+    // translate text from the Boxer Translate tab
+    hs.restoreTitle = "Click to close image, click and drag to move. Use arrow keys for next and previous.";
+    hs.loadingText = "Loading...";
+    hs.fullExpandTitle = "Expand to actual size";
+    hs.focusTitle = "Click to bring to front";
+    hs.loadingTitle = "Click to cancel";
+    hs.align = 'center';
+    hs.moveText = "";
+    hs.closeText = "";
+    hs.resizeTitle = "Resize";
+
+
+
+
+</script>
+<style type="text/css">
+<!--
+.highslide {
+	cursor: url(res/graphics/zoomin.cur), pointer;
+    outline: none;
+}
+.highslide img {
+	border: 2px solid #999999;
+}
+.highslide:hover img {
+	border: 2px solid #ffffff;
+}
+.highslide-overlay {
+	display: none;
+}
+.highslide-image {
+    border: solid #ffffff;
+}
+
+.highslide-caption {
+    display: none;
+    color: #000000;
+    border: 0px solid #ffffff;
+    border-top: none;
+    font-family: Verdana, Helvetica;
+    font-size: 10pt;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.highslide-caption a {color: #2E8B57;}
+
+.highslide-loading, a.highslide-loading:link {
+   display: block;
+   color: #ffffff;
+   background-color: #000000;
+   font-size: 9pt;
+   font-weight: bold;
+   text-transform: uppercase;
+   text-decoration: none;
+   padding: 3px;
+   border-top: 1px solid #ffffff;
+   border-bottom: 1px solid #ffffff;
+   padding-left: 22px;
+   background-image: url(res/graphics/loader.gif);
+   background-repeat: no-repeat;
+   background-position: 3px 1px;
+}
+
+a.highslide-credits, a.highslide-credits i {
+    padding: 2px;
+    color: silver;
+    text-decoration: none;
+	font-size: 10px;
+}
+a.highslide-credits:hover,
+a.highslide-credits:hover i {
+    color: white;
+    background-color: gray;
+}
+
+.highslide-move {
+    cursor: move;
+}
+
+
+/* Controlbar */
+.controlbar {	
+	background: url(res/graphics/controlbar4.gif);
+	width: 167px;
+	height: 34px;
+}
+.controlbar a {	
+	display: block;
+	float: left;
+	/*margin: 0px 0 0 4px;*/	
+	height: 27px;
+}
+.controlbar a:hover {
+	background-image: url(res/graphics/controlbar4-hover.gif);
+}
+.controlbar .previous {
+	width: 50px;
+}
+.controlbar .next {
+	width: 40px;
+	background-position: -50px 0;
+}
+.controlbar .highslide-move {
+	width: 40px;
+	background-position: -90px 0;
+}
+.controlbar .close {
+	width: 36px;
+	background-position: -130px 0;
+}
+
+.highslide-dimming {
+background: #000000;
+position: absolute;
+visibility: hidden;
+} 
+
+a.highslide-full-expand {
+	background: url(res/graphics/fullexpand.gif) no-repeat;
+	display: block;
+	margin: 10px 10px 10px 10px;
+	width: 34px;
+	height: 34px;
+}
+
+.highslide-active-anchor img {
+    visibility: hidden
+}
+.highslide-html {
+    background-color: white;
+}
+.highslide-html-blur {
+}
+.highslide-html-content {
+	position: absolute;
+    display: none;
+}
+
+
+
+/* Necessary for functionality */
+.highslide-display-block {
+    display: block;
+}
+.highslide-display-none {
+    display: none;
+}
+
+-->
+</style>
+<link rel="alternate" href="album.rss" type="application/rss+xml">
+</HEAD>
+
+<body ID="index">
+
+
+<table width="100%">
+<TBODY><tr>
+    <td align="left"><strong>
+		<!-- Link to homepage if it exists -->
+		
+
+<!-- Multilevel index links for index page -->
+
+My Jalbum
+</strong></td>
+</tr>
+</TBODY></table>
+
+
+
+<div class=galleryheader>
+<!-- Title Bar and Search code (if available) -->
+<table width="100%" border="0" >
+   <tr>
+   <td><h2>My Jalbum
+   
+   </h2></td></tr>
+</table>
+
+</div>
+
+
+
+
+<!-- Navigation buttons above photo -->
+<table summary="Navigation" align="center" border="0">
+<tr>
+  
+   
+	   	 
+	       <td  width="32"> </td>
+				 
+			 
+	 
+	 
+	    
+ 	 
+   
+	   
+	    <td>Page 1 of 2</td>
+			
+		 
+    
+
+   
+      <td width="32"><a href="index2.html"><img src="res/next.gif" border=0 alt="Next" title="Next" align="middle"></a></td>
+			
+   
+	
+</tr>
+</table>
+
+
+
+<!-- Check for JavaScript -->
+<script type="text/javascript"></script>
+<noscript>
+  <table summary="JSCheck" align="center">
+  <tr><td bgcolor="red"><b>Error: JavaScript must be enabled<br>for this page to function properly!</b></td></tr>
+  </table>
+</noscript>
+
+
+   <!-- Puts thumbnail table inside a larger table to accommodate the skyscraper ads -->
+   <table summary="Images and advertising" align="center">
+   <tr valign="top"><td>
+
+
+<!-- Iterate through images and produce an index table -->
+<CENTER><TABLE width="90%" cellspacing="5">
+<TBODY>
+
+    <TR>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 16.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image1' } )" ><img class="image" src="thumbs/Glotowo 16.jpg" width="100" height="100" alt="Glotowo 16" title="Glotowo 16"></a>
+				      <div class='highslide-caption' id='Image1'>
+         					Glotowo 16
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 16
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 01.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image2' } )" ><img class="image" src="thumbs/Glotowo 01.jpg" width="100" height="100" alt="Glotowo 01" title="Glotowo 01"></a>
+				      <div class='highslide-caption' id='Image2'>
+         					Glotowo 01
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 01
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 02.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image3' } )" ><img class="image" src="thumbs/Glotowo 02.jpg" width="100" height="100" alt="Glotowo 02" title="Glotowo 02"></a>
+				      <div class='highslide-caption' id='Image3'>
+         					Glotowo 02
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 02
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+    </TR>
+
+    <TR>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 03.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image4' } )" ><img class="image" src="thumbs/Glotowo 03.jpg" width="100" height="100" alt="Glotowo 03" title="Glotowo 03"></a>
+				      <div class='highslide-caption' id='Image4'>
+         					Glotowo 03
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 03
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 04.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image5' } )" ><img class="image" src="thumbs/Glotowo 04.jpg" width="100" height="100" alt="Glotowo 04" title="Glotowo 04"></a>
+				      <div class='highslide-caption' id='Image5'>
+         					Glotowo 04
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 04
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 05.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image6' } )" ><img class="image" src="thumbs/Glotowo 05.jpg" width="100" height="100" alt="Glotowo 05" title="Glotowo 05"></a>
+				      <div class='highslide-caption' id='Image6'>
+         					Glotowo 05
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 05
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+    </TR>
+
+    <TR>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 06.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image7' } )" ><img class="image" src="thumbs/Glotowo 06.jpg" width="100" height="100" alt="Glotowo 06" title="Glotowo 06"></a>
+				      <div class='highslide-caption' id='Image7'>
+         					Glotowo 06
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 06
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 07.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image8' } )" ><img class="image" src="thumbs/Glotowo 07.jpg" width="100" height="100" alt="Glotowo 07" title="Glotowo 07"></a>
+				      <div class='highslide-caption' id='Image8'>
+         					Glotowo 07
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 07
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 08.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image9' } )" ><img class="image" src="thumbs/Glotowo 08.jpg" width="100" height="100" alt="Glotowo 08" title="Glotowo 08"></a>
+				      <div class='highslide-caption' id='Image9'>
+         					Glotowo 08
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 08
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+    </TR>
+
+    <TR>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 09.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image10' } )" ><img class="image" src="thumbs/Glotowo 09.jpg" width="100" height="100" alt="Glotowo 09" title="Glotowo 09"></a>
+				      <div class='highslide-caption' id='Image10'>
+         					Glotowo 09
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 09
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 10.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image11' } )" ><img class="image" src="thumbs/Glotowo 10.jpg" width="100" height="100" alt="Glotowo 10" title="Glotowo 10"></a>
+				      <div class='highslide-caption' id='Image11'>
+         					Glotowo 10
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 10
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 11.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image12' } )" ><img class="image" src="thumbs/Glotowo 11.jpg" width="100" height="100" alt="Glotowo 11" title="Glotowo 11"></a>
+				      <div class='highslide-caption' id='Image12'>
+         					Glotowo 11
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 11
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+    </TR>
+
+    <TR>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 12.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image13' } )" ><img class="image" src="thumbs/Glotowo 12.jpg" width="100" height="100" alt="Glotowo 12" title="Glotowo 12"></a>
+				      <div class='highslide-caption' id='Image13'>
+         					Glotowo 12
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 12
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 13.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image14' } )" ><img class="image" src="thumbs/Glotowo 13.jpg" width="100" height="100" alt="Glotowo 13" title="Glotowo 13"></a>
+				      <div class='highslide-caption' id='Image14'>
+         					Glotowo 13
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 13
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+        <TD class="thumbnail" align="center" valign="top">
+           
+							<a href="slides/Glotowo 14.jpg" class="highslide" onclick="return hs.expand(this, { captionId: 'Image15' } )" ><img class="image" src="thumbs/Glotowo 14.jpg" width="100" height="100" alt="Glotowo 14" title="Glotowo 14"></a>
+				      <div class='highslide-caption' id='Image15'>
+         					Glotowo 14
+							</div>
+           
+           <br>
+					 
+			  	 
+           
+					   Glotowo 14
+					 
+					 
+					 
+					 
+				   
+      </TD>
+    
+    </TR>
+
+</TBODY>
+</TABLE></CENTER>
+
+
+   <div id="controlbar" class="highslide-overlay controlbar">
+     <a href="#" class="previous" onclick="return hs.previous(this)" title="Previous (left arrow key)"></a>
+     <a href="#" class="next" onclick="return hs.next(this)" title="Next (right arrow key)"></a>
+     <a href="#" class="highslide-move" onclick="return false" title="Click and drag to move"></a>
+     <a href="#" class="close" onclick="return hs.close(this)" title="Close"></a>
+   </div>
+
+
+
+   </td>
+	 <td width="120" height="600">
+      <a href="http://jalbum.net/?banner=Frog%2Fen%2Fjalbum_120x240" title="Photo gallery"><img style="border:0px;" src="http://banners.jalbum.net/res/banners/Frog/en/jalbum_120x240.gif" alt="Photo gallery" /></a>
+   </td>
+</tr>
+</table>
+
+
+
+
+<table summary="Description" border="0" align="center" width="100%">
+   
+   
+   <tr><td align="center"></td></tr>
+</table>
+
+<!-- Bottom navigation -->
+
+<table align="center"><tr><td align=center><strong>
+ <b>1</b><a href="index2.html"> 2</a></strong></td>
+</tr></table>
+
+
+
+<div id="jalbumwidgetcontainer"></div>
+<script type="text/javascript" charset="utf-8"><!--//--><![CDATA[//><!--
+_jaSkin = "Boxer";
+_jaStyle = "3a Gradient Black n Blue.css";
+_jaVersion = "8.1.2";
+_jaLanguage = "pl";
+_jaPageType = "index";
+_jaRootPath = ".";
+var script = document.createElement("script");
+script.type = "text/javascript";
+script.src = "http://jalbum.net/widgetapi/load.js";
+document.getElementById("jalbumwidgetcontainer").appendChild(script);
+//--><!]]></script>
+
+</BODY>
+</HTML>

@@ -1,0 +1,110 @@
+BODY
+{
+color: white;
+background-color: #003366;
+font-size: 7pt;
+margin: 0;
+padding: 0;
+}
+
+DIV,TH,TR,TABLE,FONT,LI,UL,FORM,
+BLOCKQUOTE,P,B,I,H1,H2,H3,H4,H5,FONT, CENTER
+{ font-family: verdana, arial, sans-serif;
+font-size: 10pt;
+color: white;
+}
+font
+{
+  color: #AAAAAA;
+  letter-spacing: 3px;
+}
+
+h2
+{
+font-size: 12pt;
+font-weight: normal;
+text-align: center;
+letter-spacing: 4px;
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: black;
+background:url(BlackNBlueBG.png) top repeat-x;
+}
+
+h2:first-letter
+{
+  color: #AAAAAA;
+  font-weight: bold;
+  font-size:  22pt;
+}
+
+.TitleTable
+{
+  background-color:black;
+}
+
+h4
+{
+  color: #FF9900;
+  font-size: 13pt;
+}
+
+I
+{
+  color: #888888;
+  font-style: normal;
+
+}
+
+A, TD.A, A:link
+{ color: #FFCC00;
+text-decoration: none;
+}
+
+A:hover
+{
+color: red;
+text-decoration: underline;
+}
+
+A:visited
+{
+color: #FFCC66;
+}
+
+A:active { color : #d5ae83}
+
+.caption
+{
+font-size : 9pt;
+color : #44dd44;
+font-style : italic;
+}
+
+TD
+{
+background-color: transparent;
+}
+
+TD.thumbnail
+{
+background-color: black;
+background:url(BlackNBlueBG.png) top repeat;
+padding: 5px;
+text-align: center;
+width: 2000px;
+}
+
+.thumbnail
+{
+border-color: #666666;
+border-width: 4px;
+}
+
+.display
+{
+border: 8px RIDGE #999999;
+background-color: black;
+}
+BODY { margin-top: 0px;}
+HR { position : relative;}

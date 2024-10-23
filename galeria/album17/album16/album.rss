@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>album17</title>
+   	<link>.</link>
+        <generator>Jalbum 8.1</generator>
+   		<description></description>
+        
+    	<jalbum:link rel="sub" href="glotowo.freehost.pl/album.rss" />   	
+    	<jalbum:link rel="sub" href="glotowo.freehost.pl/album.rss" />   	
+    	
+    	<jalbum:link rel="sub" href="glotowo.freehost.pl/album.rss" />   	
+    	<jalbum:link rel="sub" href="glotowo.freehost.pl/album.rss" />   	
+    	
+    	<jalbum:link rel="sub" href="album17/album.rss" />   	
+    	<jalbum:link rel="sub" href="album17/album.rss" />   	
+    	
+        
+        <item>
+            <title>wspólnota.ż -chmurka01</title>
+            <link>slides/wspólnota.ż -chmurka01.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/wspólnota.ż -chmurka01.jpg" width="124" height="76"/>
+            <media:content url="slides/wspólnota.ż -chmurka01.jpg" width="512" height="315"/>
+            
+            
+            <guid isPermaLink="false">slides/wspólnota.ż -chmurka01.jpg</guid>
+        </item>
+        
+        <item>
+            <title>04.przegląd zespołów młodzieżowych</title>
+            <link>slides/04.przegląd zespołów młodzieżowych.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/04.przegląd zespołów młodzieżowych.JPG" width="124" height="93"/>
+            <media:content url="slides/04.przegląd zespołów młodzieżowych.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="10.10.08 18:42" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/04.przegląd zespołów młodzieżowych.JPG</guid>
+        </item>
+        
+        <item>
+            <title>05.mariola głosi </title>
+            <link>slides/05.mariola głosi .html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/05.mariola głosi .JPG" width="124" height="93"/>
+            <media:content url="slides/05.mariola głosi .JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="10.10.08 19:57" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/05.mariola głosi .JPG</guid>
+        </item>
+        
+        <item>
+            <title>06.głosimy pana pieśnią</title>
+            <link>slides/06.głosimy pana pieśnią.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/06.głosimy pana pieśnią.JPG" width="124" height="93"/>
+            <media:content url="slides/06.głosimy pana pieśnią.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="10.10.08 20:01" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/06.głosimy pana pieśnią.JPG</guid>
+        </item>
+        
+        <item>
+            <title>07.</title>
+            <link>slides/07..html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/07..JPG" width="124" height="93"/>
+            <media:content url="slides/07..JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="10.10.08 20:03" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/07..JPG</guid>
+        </item>
+        
+        <item>
+            <title>08.</title>
+            <link>slides/08..html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/08..JPG" width="124" height="93"/>
+            <media:content url="slides/08..JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="10.10.08 20:04" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/08..JPG</guid>
+        </item>
+        
+        <item>
+            <title>09.uwielbienie</title>
+            <link>slides/09.uwielbienie.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/09.uwielbienie.JPG" width="124" height="93"/>
+            <media:content url="slides/09.uwielbienie.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="10.10.08 20:05" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/09.uwielbienie.JPG</guid>
+        </item>
+        
+        <item>
+            <title>10</title>
+            <link>slides/10.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/10.JPG" width="124" height="93"/>
+            <media:content url="slides/10.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="10.10.08 20:06" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/10.JPG</guid>
+        </item>
+        
+        <item>
+            <title>25.uwielbienie w kosciele</title>
+            <link>slides/25.uwielbienie w kosciele.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/25.uwielbienie w kosciele.JPG" width="124" height="93"/>
+            <media:content url="slides/25.uwielbienie w kosciele.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 07:34" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/25.uwielbienie w kosciele.JPG</guid>
+        </item>
+        
+        <item>
+            <title>24.spotkania w kosciele</title>
+            <link>slides/24.spotkania w kosciele.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/24.spotkania w kosciele.JPG" width="124" height="93"/>
+            <media:content url="slides/24.spotkania w kosciele.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 07:44" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/24.spotkania w kosciele.JPG</guid>
+        </item>
+        
+        <item>
+            <title>11.wspólnotowe dzieci w jedności</title>
+            <link>slides/11.wspólnotowe dzieci w jedności.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/11.wspólnotowe dzieci w jedności.JPG" width="124" height="93"/>
+            <media:content url="slides/11.wspólnotowe dzieci w jedności.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 08:43" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/11.wspólnotowe dzieci w jedności.JPG</guid>
+        </item>
+        
+        <item>
+            <title>23.warsztat muzyczny</title>
+            <link>slides/23.warsztat muzyczny.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/23.warsztat muzyczny.JPG" width="124" height="93"/>
+            <media:content url="slides/23.warsztat muzyczny.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 10:54" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/23.warsztat muzyczny.JPG</guid>
+        </item>
+        
+        <item>
+            <title>22</title>
+            <link>slides/22.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/22.JPG" width="124" height="93"/>
+            <media:content url="slides/22.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 10:59" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/22.JPG</guid>
+        </item>
+        
+        <item>
+            <title>21</title>
+            <link>slides/21.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/21.JPG" width="124" height="93"/>
+            <media:content url="slides/21.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 11:03" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/21.JPG</guid>
+        </item>
+        
+        <item>
+            <title>20.</title>
+            <link>slides/20..html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/20..JPG" width="124" height="93"/>
+            <media:content url="slides/20..JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 11:04" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/20..JPG</guid>
+        </item>
+        
+        <item>
+            <title>19.warsztat</title>
+            <link>slides/19.warsztat.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/19.warsztat.JPG" width="124" height="93"/>
+            <media:content url="slides/19.warsztat.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 11:05" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/19.warsztat.JPG</guid>
+        </item>
+        
+        <item>
+            <title>18.warsztat </title>
+            <link>slides/18.warsztat .html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/18.warsztat .JPG" width="124" height="93"/>
+            <media:content url="slides/18.warsztat .JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 11:06" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/18.warsztat .JPG</guid>
+        </item>
+        
+        <item>
+            <title>17.warsztat zbroja boża</title>
+            <link>slides/17.warsztat zbroja boża.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/17.warsztat zbroja boża.JPG" width="124" height="93"/>
+            <media:content url="slides/17.warsztat zbroja boża.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 11:06" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/17.warsztat zbroja boża.JPG</guid>
+        </item>
+        
+        <item>
+            <title>16.warsztat taneczny</title>
+            <link>slides/16.warsztat taneczny.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/16.warsztat taneczny.JPG" width="124" height="93"/>
+            <media:content url="slides/16.warsztat taneczny.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 11:16" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/16.warsztat taneczny.JPG</guid>
+        </item>
+        
+        <item>
+            <title>17.warsztat zbroja</title>
+            <link>slides/17.warsztat zbroja.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/17.warsztat zbroja.JPG" width="124" height="93"/>
+            <media:content url="slides/17.warsztat zbroja.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 11:25" cameraMake="PENTAX Corporation" cameraModel="PENTAX Optio E40"/>
+            <guid isPermaLink="false">slides/17.warsztat zbroja.JPG</guid>
+        </item>
+        
+        <item>
+            <title>28.chwila odpoczynku po cieżkiej pracy</title>
+            <link>slides/28.chwila odpoczynku po cieżkiej pracy.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/28.chwila odpoczynku po cieżkiej pracy.JPG" width="124" height="93"/>
+            <media:content url="slides/28.chwila odpoczynku po cieżkiej pracy.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 12:19" cameraMake="PENTAX Corporation" cameraModel="PENTAX Optio E40"/>
+            <guid isPermaLink="false">slides/28.chwila odpoczynku po cieżkiej pracy.JPG</guid>
+        </item>
+        
+        <item>
+            <title>01.bazylika</title>
+            <link>slides/01.bazylika.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/01.bazylika.JPG" width="124" height="93"/>
+            <media:content url="slides/01.bazylika.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 13:52" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/01.bazylika.JPG</guid>
+        </item>
+        
+        <item>
+            <title>02.ks. proboszcz rozpoczyna oficjalnie</title>
+            <link>slides/02.ks. proboszcz rozpoczyna oficjalnie.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/02.ks. proboszcz rozpoczyna oficjalnie.JPG" width="124" height="93"/>
+            <media:content url="slides/02.ks. proboszcz rozpoczyna oficjalnie.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 13:59" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/02.ks. proboszcz rozpoczyna oficjalnie.JPG</guid>
+        </item>
+        
+        <item>
+            <title>15.</title>
+            <link>slides/15..html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/15..JPG" width="124" height="93"/>
+            <media:content url="slides/15..JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 14:59" cameraMake="PENTAX Corporation" cameraModel="PENTAX Optio E40"/>
+            <guid isPermaLink="false">slides/15..JPG</guid>
+        </item>
+        
+        <item>
+            <title>10.</title>
+            <link>slides/10..html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/10..JPG" width="124" height="93"/>
+            <media:content url="slides/10..JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 14:59" cameraMake="PENTAX Corporation" cameraModel="PENTAX Optio E40"/>
+            <guid isPermaLink="false">slides/10..JPG</guid>
+        </item>
+        
+        <item>
+            <title>15</title>
+            <link>slides/15.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/15.JPG" width="124" height="93"/>
+            <media:content url="slides/15.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 15:04" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/15.JPG</guid>
+        </item>
+        
+        <item>
+            <title>14.świadectwa rodzin</title>
+            <link>slides/14.świadectwa rodzin.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/14.świadectwa rodzin.JPG" width="124" height="93"/>
+            <media:content url="slides/14.świadectwa rodzin.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 15:07" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/14.świadectwa rodzin.JPG</guid>
+        </item>
+        
+        <item>
+            <title>12.prezentacja warsztatu muzycznego</title>
+            <link>slides/12.prezentacja warsztatu muzycznego.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/12.prezentacja warsztatu muzycznego.JPG" width="124" height="93"/>
+            <media:content url="slides/12.prezentacja warsztatu muzycznego.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 15:56" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/12.prezentacja warsztatu muzycznego.JPG</guid>
+        </item>
+        
+        <item>
+            <title>13</title>
+            <link>slides/13.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/13.JPG" width="124" height="93"/>
+            <media:content url="slides/13.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 16:04" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/13.JPG</guid>
+        </item>
+        
+        <item>
+            <title>18.prezentacja zbroi</title>
+            <link>slides/18.prezentacja zbroi.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/18.prezentacja zbroi.JPG" width="124" height="93"/>
+            <media:content url="slides/18.prezentacja zbroi.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 16:08" cameraMake="PENTAX Corporation" cameraModel="PENTAX Optio E40"/>
+            <guid isPermaLink="false">slides/18.prezentacja zbroi.JPG</guid>
+        </item>
+        
+        <item>
+            <title>29.z1</title>
+            <link>slides/29.z1.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/29.z1.JPG" width="124" height="93"/>
+            <media:content url="slides/29.z1.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 19:01" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/29.z1.JPG</guid>
+        </item>
+        
+        <item>
+            <title>29.z3</title>
+            <link>slides/29.z3.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/29.z3.JPG" width="124" height="93"/>
+            <media:content url="slides/29.z3.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 19:12" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/29.z3.JPG</guid>
+        </item>
+        
+        <item>
+            <title>29.wieczorem dołaczył do nas 2Tm2,3</title>
+            <link>slides/29.wieczorem dołaczył do nas 2Tm2,3.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/29.wieczorem dołaczył do nas 2Tm2,3.JPG" width="124" height="93"/>
+            <media:content url="slides/29.wieczorem dołaczył do nas 2Tm2,3.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 19:45" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/29.wieczorem dołaczył do nas 2Tm2,3.JPG</guid>
+        </item>
+        
+        <item>
+            <title>29.z2</title>
+            <link>slides/29.z2.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/29.z2.JPG" width="124" height="93"/>
+            <media:content url="slides/29.z2.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="11.10.08 20:15" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/29.z2.JPG</guid>
+        </item>
+        
+        <item>
+            <title>27.koronacja</title>
+            <link>slides/27.koronacja.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/27.koronacja.JPG" width="124" height="93"/>
+            <media:content url="slides/27.koronacja.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="12.10.08 09:33" cameraMake="PENTAX Corporation" cameraModel="PENTAX Optio E40"/>
+            <guid isPermaLink="false">slides/27.koronacja.JPG</guid>
+        </item>
+        
+        <item>
+            <title>26.koronacja na dieci króla</title>
+            <link>slides/26.koronacja na dieci króla.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/26.koronacja na dieci króla.JPG" width="124" height="93"/>
+            <media:content url="slides/26.koronacja na dieci króla.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="12.10.08 09:33" cameraMake="PENTAX Corporation" cameraModel="PENTAX Optio E40"/>
+            <guid isPermaLink="false">slides/26.koronacja na dieci króla.JPG</guid>
+        </item>
+        
+        <item>
+            <title>27.MGP1843</title>
+            <link>slides/27.MGP1843.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/27.MGP1843.JPG" width="124" height="93"/>
+            <media:content url="slides/27.MGP1843.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="12.10.08 09:37" cameraMake="PENTAX Corporation" cameraModel="PENTAX Optio E40"/>
+            <guid isPermaLink="false">slides/27.MGP1843.JPG</guid>
+        </item>
+        
+        <item>
+            <title>27.IMGP1844</title>
+            <link>slides/27.IMGP1844.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/27.IMGP1844.JPG" width="124" height="93"/>
+            <media:content url="slides/27.IMGP1844.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="12.10.08 09:37" cameraMake="PENTAX Corporation" cameraModel="PENTAX Optio E40"/>
+            <guid isPermaLink="false">slides/27.IMGP1844.JPG</guid>
+        </item>
+        
+        <item>
+            <title>27.MGP1845</title>
+            <link>slides/27.MGP1845.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/27.MGP1845.JPG" width="124" height="93"/>
+            <media:content url="slides/27.MGP1845.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="12.10.08 09:37" cameraMake="PENTAX Corporation" cameraModel="PENTAX Optio E40"/>
+            <guid isPermaLink="false">slides/27.MGP1845.JPG</guid>
+        </item>
+        
+        <item>
+            <title>27.DSCN4457</title>
+            <link>slides/27.DSCN4457.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/27.DSCN4457.JPG" width="124" height="93"/>
+            <media:content url="slides/27.DSCN4457.JPG" width="512" height="384"/>
+            
+            <jalbum:exif originalDate="12.10.08 09:39" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/27.DSCN4457.JPG</guid>
+        </item>
+        
+        <item>
+            <title>03.ks.piotr czyta komentarz do tomka</title>
+            <link>slides/03.ks.piotr czyta komentarz do tomka.html</link>
+            <pubDate>Mon, 08 Dec 2008 15:58:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/03.ks.piotr czyta komentarz do tomka.jpg" width="93" height="124"/>
+            <media:content url="slides/03.ks.piotr czyta komentarz do tomka.jpg" width="384" height="512"/>
+            
+            <jalbum:exif originalDate="11.10.08 13:57" cameraMake="NIKON" cameraModel="COOLPIX L5"/>
+            <guid isPermaLink="false">slides/03.ks.piotr czyta komentarz do tomka.jpg</guid>
+        </item>
+        
+    </channel>
+</rss>

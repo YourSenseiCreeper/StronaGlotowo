@@ -1,0 +1,36 @@
+<html lang="pl">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Swobodno - nabożeństwo majowe</title>
+	<link href="./style.css" rel=stylesheet>
+	<script src="./script.js"></script>
+	<script>
+		images = ['Swobodna,090507_-_060.jpg','Swobodna,090507_-_066.jpg','Swobodna,090507_-_068.jpg','Swobodna,090507_-_071.jpg','Swobodna,090507_-_075.jpg','Swobodna,090507_-_078.jpg','Swobodna,090507_-_083.jpg'];
+	</script>
+</head>
+<body>
+	<div class="header">
+		<h1>Swobodno - nabożeństwo majowe</h1>
+	</div>
+	<div class="gallery">
+		<img src="./slides/Swobodna,090507_-_060.jpg" alt="Swobodna,090507_-_060.jpg" onclick="openImage('Swobodna,090507_-_060.jpg')">
+<img src="./slides/Swobodna,090507_-_066.jpg" alt="Swobodna,090507_-_066.jpg" onclick="openImage('Swobodna,090507_-_066.jpg')">
+<img src="./slides/Swobodna,090507_-_068.jpg" alt="Swobodna,090507_-_068.jpg" onclick="openImage('Swobodna,090507_-_068.jpg')">
+<img src="./slides/Swobodna,090507_-_071.jpg" alt="Swobodna,090507_-_071.jpg" onclick="openImage('Swobodna,090507_-_071.jpg')">
+<img src="./slides/Swobodna,090507_-_075.jpg" alt="Swobodna,090507_-_075.jpg" onclick="openImage('Swobodna,090507_-_075.jpg')">
+<img src="./slides/Swobodna,090507_-_078.jpg" alt="Swobodna,090507_-_078.jpg" onclick="openImage('Swobodna,090507_-_078.jpg')">
+<img src="./slides/Swobodna,090507_-_083.jpg" alt="Swobodna,090507_-_083.jpg" onclick="openImage('Swobodna,090507_-_083.jpg')">
+	</div>
+	<div class="fullscreen-image-wrapper wrapper-hidden" id="fullscreen-image-wrapper">
+		<div class="inside-wrapper">
+			<img id="fullscreen-image">
+			<div class="controls">
+				<span class="arrow" onclick="previousImage()">⬅</span>
+				<span class="close" onclick="closeWrapper()">Zamknij</span>
+				<span class="arrow" onclick="nextImage()">➡</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
