@@ -1,4 +1,4 @@
-var ogloszeniaNaglowek = '3 NIEDZIELA WIELKIEGO POSTU - 3.03.2024 R.';
+var ogloszeniaNaglowek = '31 NIEDZIELA ZWYKŁA B - 3.11.2024 R.';
 var ogloszenia = [
-    'W najbliższy piątek Droga Krzyżowa na Kalwarii o 17.00, po niej Msza z nabożeństwem o uzdrowienie duszy i ciała.'
+    'Bóg zapłać za ofiary na fundusz remontowy.'
 ];
