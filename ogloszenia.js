@@ -1,7 +1,7 @@
-var ogloszeniaNaglowek = 'IV NIEDZIELA ADWENTU - C - 22.12.2024 R.';
+var ogloszeniaNaglowek = 'NIEDZIELA ŚW. Rodziny - C - 29.12.2024 R.';
 var ogloszenia = [
-    'We wtorek wigilia. Nie zapomnijmy o czytaniu ewangelii o Narodzeniu Pańskim, modlitwie, kolędach i dzieleniu się opłatkiem. Pasterka o 24.00 ',
-'W I dzień świąt Suma o 11.00, w II dzień świąt Msze o 8.30 i 11. Ofiary na KUL.W następną Niedzielę Św. Rodziny odnowienie przyżeczeń małżeńskich',
-'Dziękuję OSP, dorosłym i młodzieży w przygotowaniu żłóbka i choinek.',
-'W zakrystii do nabycia są świce wigilijne jako pomoc dla ubogich po 10 zł oraz poświęcone opłatki za dobrowolną ofiarę na ogrzewanie i prąd w kościele.',
+    'Jutro Msza o 10.00, We wtorek Msza z nabożeństwemo na zakończenie roku o 18.00 ',
+'1.01.25 W Uroczystość Św. Bożej Rodzicielki - święto makazane Msze  o 11.00 i 18.00.',
+'W tym tygodniu wypada I piątek i I sobota - Msze z nabożeństwami o 18.00.',
+'W następną niedzielę Msza o 8.30 za członków Róż Różańcowych i za parafian. Po niej Adoracja Eucharystyczna i zmiana tajemnic. PO Sumie spotkanie opłatkowe dla rad parafialnych i członków Róż Różańcowych na plebanii.',
 ];
