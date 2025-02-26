@@ -1,5 +1,6 @@
 var ogloszeniaNaglowek = '7 NIEDZIELA ZWYKŁA C - 23.02.2025 R.';
 var ogloszenia = [
-    'W najbliższą sobotę wypada I sobota miesiąca. Msza z nabożeństwem o 18.00.',
-'W następną niedzielę Msza o 8.30 w intencji Żywego Różańca i parafian, a po niej Adoracja Eucharystyczna i zmiana tajemnic. O 15.00 spotkanie rad parafialnych na plebanii.',
+    'W tym tygodniu wypada 1 sobota miesiąca. Msza z nabożeństwem o 18:00.',
+'W przyszłą niedzielę Msza w intencji Żywego Różańca i Parafian o 8:30. Po niej Adoracja Eucharystyczna i zmiana tajemnic.',
+'W przyszłą niedzielę o 15:00 zapraszam członków naszych rad parafialnych na spotkanie na plebanię.'
 ];
