@@ -1,8 +1,8 @@
-var ogloszeniaNaglowek = '23 NIEDZIELA ZWYKŁA C - 7.09.2025 R.';
+var ogloszeniaNaglowek = 'NIEDZIELA ODPUSTOWA C - 21.09.2025 R.';
 var ogloszenia = [
  
-'Jutro Msza o 11.00.',
-'Zapraszam na spotkanie naszych rad parafialnych dziś o 15.00 na plebanii.',
-'Dziś w niedzielę Msza w intencji członków Róż Różańcowych i Parafian o 8.30, po niej Adoracja Eucharystyczna i zmiana tajemnic różańca..', 
+' Dziś w niedzielę nasz Odpust. Msza o 8.30, o 10.00 Droga Krzyżowa na Kalwarii, o 11.00 - Adoracja i różaniec w kościele, o 12.00 Procesja i Suma Odpustowa - przewodniczy ks. Jarosław Kieł z Malborka.',
+'Przy kaplicy XIV można nabyć pamiątki i zamówić intencje mszalne. Zapraszamy do hermbaciarni na zupę i ciastko, kawę i herbatę.',
+'Dziękuję wszystkim za przygotowanie odpustu kapłanom, klerykowi Adamowi, S. Iwonie, radzie parafialnej, chórowi, OSP, procesji i wszystkim , którzy przyczynili się do przygotowania i udziału w odpuście.', 
 
 ];
