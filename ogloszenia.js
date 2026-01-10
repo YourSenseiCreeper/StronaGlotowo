@@ -1,9 +1,7 @@
-var ogloszeniaNaglowek = '2 NIEDZIELA BOŻEGO NARODZENIA A - 4.01.2026 R.';
+var ogloszeniaNaglowek = 'NIEDZIELA CHRZTU PAŃSKIEGO A - 11.01.2026 R.';
 var ogloszenia = [
  
-' W tym tygodniu 6.01. Uroczystość Objawienia Pańskiego - Trzech Króli Msze z błogosławieństwem kredy o 8.30 i 11.00.',
-' Kontynujemy kolędę - wizytę duszpasterską; w poniedziałek kol.pn od p.Napieralskich do p.Milkiewicz, od g. 10.00, trans. Ks. Adam Napieralski, w środe kol. pn od p.Dawidowicz do p. Pusz, od 10.00, trans. p. Daniel Symonowicz, w czwartek kol. pd od p. Dąbrowskich do p. Stefańskich od 10.00, trans. p. Andrzej Stefański, piątek kol. pn od p. Stanulewicz do p. Bibik, od 10.00, trans. p. Adam Brzezińscy, w sobotę ul Kościeln od p.Kirkis do p.Wołodżko od 10.00.',
-' Dziś w niedzielę Msza w intencji Róż Różańcowych i Parafian o 8.30, po niej Adoracja Eucharystyczna i zmiana tajemnic. Po sumie zapraszam na spotkanie opłatkowo-kolędowe na które zapraszam członków Róż Różańcowych i Rad Parafialnych oraz wszystkich chętnych.',
-
+' Jutro Msza o 11.00 i podobnie do czwartku.',
+' Kontynujemy kolędę - wizytę duszpasterską; w poniedziałek ul. Kościelna od p. Kotłowskiej do p. Klepaczko,od g. 15.00, we wtorek ul. Szkolna od p. Matłosz do p.Dawidowicz, od 15.00, we środę ul. Szkolna od Oś. za Szkołą , p. Bednarskiegodo p. Sobotka, od 15.00, w czwartek ul. szkolna od p. Wesołowskich do p. Zboch, od godz. 15.00.',
 
 ];
