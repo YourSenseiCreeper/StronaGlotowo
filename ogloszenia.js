@@ -1,7 +1,7 @@
-var ogloszeniaNaglowek = 'NIEDZIELA CHRZTU PAŃSKIEGO A - 11.01.2026 R.';
+var ogloszeniaNaglowek = '4 NIEDZIELA ZWYKŁ A - 1.02.2026 R.';
 var ogloszenia = [
  
-' Jutro Msza o 11.00 i podobnie do czwartku.',
-' Kontynujemy kolędę - wizytę duszpasterską; w poniedziałek ul. Kościelna od p. Kotłowskiej do p. Klepaczko,od g. 15.00, we wtorek ul. Szkolna od p. Matłosz do p.Dawidowicz, od 15.00, we środę ul. Szkolna od Oś. za Szkołą , p. Bednarskiegodo p. Sobotka, od 15.00, w czwartek ul. szkolna od p. Wesołowskich do p. Zboch, od godz. 15.00.',
+' Jutro Ofiarowanie Pański-Matki Bozej Gromnicznej - Msza z błogosławieństwiem gromnic i procesją o 11.00 i 18.00. Ofiary na Karmelitanki w Spręcowie.',
+' W tym tygodniu wypada I piątek miesiąca.Msza z nabożeństwem o 8.00. Dziś po Mszy o 8.30 Adpracja Eucharystyczna i zmiana tajemnic',
 
 ];
