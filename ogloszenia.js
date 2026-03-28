@@ -1,4 +1,4 @@
-var ogloszeniaNaglowek = '5 NIEDZIELA WIELKOPOSTNA A - 22.03.2026 R.';
+var ogloszeniaNaglowek = 'NIEDZIELA PALMOWA A - 29.03.2026 R.';
 var ogloszenia = [
  
 ' Bóg zapłać za przygotowanie rekolekcji w kuchni i za dary na stół odpustowy. Bóg zapłać naszej szkole za pomoc i udział.',
