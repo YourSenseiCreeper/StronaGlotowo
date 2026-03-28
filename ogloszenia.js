@@ -1,9 +1,12 @@
 var ogloszeniaNaglowek = '5 NIEDZIELA WIELKOPOSTNA A - 22.03.2026 R.';
 var ogloszenia = [
  
-' Dziś po Sumie Gorzkie Żale.',
-' W piątek zapraszamy na Godziny Miłosierdzia Bożego, początek Drogą Krzyżową na Kalwarii o 17.00, po niej Msza z modlitwą o uzdrowienie duszy i ciała. ',
-' Ofiary na kwiaty do grobu pańskiego można składać na ołtarzu Matki Bożej.',
-' W tym tygodniu będziemy przeżywać nasze rekolekcje wielkopostne. Msze będą w piątek i sobotę o 11.00 z nauką dla dzieci i o 18.00. W czasie Mszy okazja do spowiedzi. Odwiedzę chorych w piątek po 13.00. Można ich zgłaszać. Uprzejmie proszę o dary na stół rekolekcyjny a w sobotę ofiary na dzieła które prowadzi ks. rekolekcjonista Janusz Gajdowski z Olsztyna.',
-' W przyszłą niedzielę Uroczystość Męki Pańskiej-Niedziela Palmowa-Msze z poświęceniem Palm o 8.30 i 11.00',
+' Bóg zapłać za przygotowanie rekolekcji w kuchni i za dary na stół odpustowy. Bóg zapłać naszej szkole za pomoc i udział.',
+' Dziś Uroczystość Męki Pańskiej - N. Palmowa. Msze z poświęceniem palm i procesją o 8.30 i 11.00, po Sumie Gorzkie Żale. ',
+' Ofiary na kwiaty do grobu Pańskiego można składać na ołtarzu Matki Bożej.',
+' W tym tygodniu będziemy uczestniczyć w Triduum Paschalnym. W wielki Czwartek Msza Wieczerzy Pańskiej o 18.00, po niej początek adoracji P. Jezusa w ciemnicy. W wielki Piątek adoracja P. Jezusa w Ciemnicy od 10.00. Zapraszam poszczególne osoby od 10-11 z ul. Szkolnej, od 11-12 z ul Kościelnej, 12-13 z kol. pd, 13-14 z kol pn, 14-15 Swobodna, o 17.00 Droga Krzyżowa na Kalwarii, po niej Liturgia Męki Pańskiej i Adoracja P. Jezusa w Grobie do 21.',
+' W Wielką Sobotę adoracja P. Jezusa w Grobie od 10. Zapraszam poszczególne osoby od 10-11 z ul. Szkolnej, od 11-12 z ul Kościelnej, 12-13 z kol. pd, 13-14 z kol pn, 14-15 Swobodna, o 18.00 Liturgia Wigilii Paschalnej z odnowieniem ze świecami przyrzeczeń chrzcielnych, po niej adoracja P. Jezusa w grobie do 21. Poświęcenie pokarmów wielkanocnych w Swobodnie o 11, w Głotowie o 12 i po Wigilii Paschalnej',
+' W Niedzielę Zmartwychwstania Rezurekcje z procesją o 6.00 i Suma Wielkanocna o 11.00. ',
+' Zapraszam do przygotowania Grobu i Ciemnicy strażaków i chętnych we wtorek o 15.00. Zapraszam dzieci, młodzież i dorosłych a szczególnie Strażaków do przygotowania adoracji i procesji.',
+
 ];
