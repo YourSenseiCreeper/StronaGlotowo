@@ -1,6 +1,6 @@
-var ogloszeniaNaglowek = '22 NIEDZIELA ZWYKŁA A. - 30.08.2026 R.';
+var ogloszeniaNaglowek = '24 NIEDZIELA ZWYKŁA A. - 13.09.2026 R.';
 var ogloszenia = [
-' 1.09. we wtorek Msza na rozpoczęcie roku szkolnego o 9.00 z poświęceniem tornistrów dla pierwszoklasistów.',
-' W tym tygodniu wypada I piątek i I sobota miesiąca. Msze z nabożeństwami o 18.00. W następną niedzielę Msza w intencji Róż Różańcowych i Parafian o 8.30, po niej Adoracja Eucharystyczna i zmiana tajemnic.',
+' W następną niedzielę będziemy przeżywać Uroczystości odpustowe. o8.30 Msza z kazaniem, o 10.00 Droga Krzyżowa na Kalwarii, o 11.00 Adoracja z róąńcem, o 12.00 Procesja i Suma Odpustowa. Uroczystości poprowadzi ks. Andrzej Migrała , Misjonarz z Boliwii. Ofiary przeznaczamy na Misje w parafii ks. Andrzeja w Boliwii..',
+' W związku z uroczystością proszę o przygotowanie terenu kościoła i kaplic Kalwarii, procesji - o udział OSP i o dary na stół odpustowy np. ciasta .Nasze dorzynki zaplanowane zostały na sobotę 26.09. o 16.00',
 ' W IMIENIU P. GRZEGORZA Z OSTRÓDY ZAPRASZAM NA PIELGRZYMKĘ Do Portugalii i Hiszpanii (Fatima i Santiago de Compostella) w dniach 22-29.09.26 w cenie 2400 zł i 790 euro. Informacje na tablicy odłoszeń.',
 ];
