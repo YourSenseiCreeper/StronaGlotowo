@@ -1,6 +1,9 @@
-var ogloszeniaNaglowek = ' NIEDZIELA ODPUSTPWA A. - 20.09.2026 R.';
+var ogloszeniaNaglowek = 'XXVII NIEDZIELA ZWYKŁA A. - 4.10.2026 R.';
 var ogloszenia = [
-' Dziś niedzielę będziemy przeżywać Uroczystości odpustowe. o8.30 Msza z kazaniem, o 10.00 Droga Krzyżowa na Kalwarii, o 11.00 Adoracja z róąńcem, o 12.00 Procesja i Suma Odpustowa. Uroczystości poprowadzi ks. Andrzej Migrała , Misjonarz z Boliwii. Ofiary przeznaczamy na Misje w parafii ks. Andrzeja w Boliwii..',
-' W związku z uroczystością dziękuję za przygotowanie terenu kościoła i kaplic Kalwarii, procesji - udział OSP za dary na stół odpustowy np. ciasta .Nasze dorzynki wraz z dziękczynieniem za 80 lat OSP Dłotowo zaplanowane zostały na sobotę 26.09. o 16.00',
-' Dziś przy kaplicy XIV można zamówić intencje mszalne, a herbaciarni zapraszamy na zupę, ciostko, kawę i herbatę tam też można nabyć pamiątki z Glotowa i pakiety Gietrzwałdzkie.',
+' Dziś w niedzielę po Mszy o 8.30 Adoracja Eucharystyczna i nabożeństwo różańcowe. ',
+' Po Sumie o 11.00 spotkanie dla rodziców i dzieci przed I Komunią.',
+' W następną niedzielę po Sumie i nabożeństwie różańcowym spotkanie dla rodziców i młodzieży z kl. 7 i 8 przed bierzmowaniem.',
+' Zapraszam na nabożeństwo różańcowe codziennie po Msz o 18.00 a w niedzielę po Sumie. ',
+' W następną niedzielę po Mszach zbieramy na fundację papieską dla ubogiej młodzieży. ',
+
 ];
